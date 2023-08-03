@@ -12,27 +12,28 @@
     <div class="container">
         <div class="circle-container center">
             <div class="timer">
-                <span class="minute">00</span>
-                <span class="seconds">00</span>
-                <span class="nano">00</span>
+                <p class="up">
+                    <span class="minute">00</span> :
+                    <span class="seconds">00</span>
+                </p>
+                <p class="down">
+                    <span class="nano">00</span>
+                </p>
+             
             </div>
-            
-            <div class="semicircle"></div>
-            <div class="semicircle"></div>
-            <div class="semicircle"></div>
-            <div class="outermost-circle"></div>
+         
 
         </div>
         <div class="buttons">
-            <div class="reset">
+            <button class="reset">
                 <img src="./svg/reset.svg" alt="">
-            </div>
-            <div class="play">
-                <img src="./svg/play.svg" alt="">
-            </div>
-            <div class="stop">
-                <img src="./svg/stop.svg" alt="">
-            </div>
+            </button>
+            <button class="play" onclick="play()">
+                <img src="./svg/play.svg" alt="" id="play">
+            </button>
+            <button class="stop" >
+                <img src="./svg/stop-fill.svg" alt="">
+            </button>
         </div>
     </div>
 
